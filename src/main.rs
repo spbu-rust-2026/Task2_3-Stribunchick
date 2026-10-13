@@ -5,9 +5,6 @@ fn main() {
 }
 
 fn reverse_words_at_odd_positions(text: &mut String) {
-    // 1. find words at odd positions starting with the first word.
-    // 2. find the borders of the slice of the text where the word is
-    // 3. reverse the chars
     let mut word_counter: u32 = 1;
     let mut start_search: usize = 0;
 
